@@ -5,15 +5,9 @@ on:
     branches:
       - master
 
-on:
-  push:
-    branches:
-      - master
-
 pull_request:
   branches: [master]
   types: [opened, synchronize]
-
 
 jobs:
   simple_deployment_pipeline:
